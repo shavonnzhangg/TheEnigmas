@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4318CC93DBE83C75C105DECA /* Pods_TheEnigmas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B6D6A30E6750272A160826 /* Pods_TheEnigmas.framework */; };
 		45D712B2204213CB00A2FD3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D712B1204213CB00A2FD3E /* AppDelegate.swift */; };
 		45D712B4204213CB00A2FD3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D712B3204213CB00A2FD3E /* ViewController.swift */; };
 		45D712B7204213CB00A2FD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D712B5204213CB00A2FD3E /* Main.storyboard */; };
 		45D712B9204213CB00A2FD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D712B8204213CB00A2FD3E /* Assets.xcassets */; };
 		45D712BC204213CB00A2FD3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D712BA204213CB00A2FD3E /* LaunchScreen.storyboard */; };
 		45D712C4204215BA00A2FD3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45D712C3204215BA00A2FD3E /* GoogleService-Info.plist */; };
+		91DEA6239E2CEF05F845DEE4 /* Pods_TheEnigmas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44160B16A0C6C8606B8EC52D /* Pods_TheEnigmas.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B0E3F101E6E7AD2E9C24BF6 /* Pods-TheEnigmas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheEnigmas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheEnigmas/Pods-TheEnigmas.debug.xcconfig"; sourceTree = "<group>"; };
+		44160B16A0C6C8606B8EC52D /* Pods_TheEnigmas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheEnigmas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D712AE204213CB00A2FD3E /* TheEnigmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheEnigmas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D712B1204213CB00A2FD3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45D712B3204213CB00A2FD3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +26,8 @@
 		45D712BB204213CB00A2FD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45D712BD204213CB00A2FD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45D712C3204215BA00A2FD3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		74B6D6A30E6750272A160826 /* Pods_TheEnigmas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheEnigmas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B75035CF2F6801BE4E8ABC8D /* Pods-TheEnigmas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheEnigmas.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheEnigmas/Pods-TheEnigmas.release.xcconfig"; sourceTree = "<group>"; };
+		521D26FBE2B7158A6FCD3FB5 /* Pods-TheEnigmas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheEnigmas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheEnigmas/Pods-TheEnigmas.debug.xcconfig"; sourceTree = "<group>"; };
+		96E8BFC7F600E4D81D5B864C /* Pods-TheEnigmas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheEnigmas.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheEnigmas/Pods-TheEnigmas.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,20 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4318CC93DBE83C75C105DECA /* Pods_TheEnigmas.framework in Frameworks */,
+				91DEA6239E2CEF05F845DEE4 /* Pods_TheEnigmas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22E38820902A539D5A167F35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44160B16A0C6C8606B8EC52D /* Pods_TheEnigmas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		45D712A5204213CB00A2FD3E = {
 			isa = PBXGroup;
 			children = (
 				45D712B0204213CB00A2FD3E /* TheEnigmas */,
 				45D712AF204213CB00A2FD3E /* Products */,
-				4E0F4151A3097682C2195420 /* Pods */,
-				AB0F938D4ABB8E59708DCB7B /* Frameworks */,
+				FAC7FDD1F0686856F57BABBD /* Pods */,
+				22E38820902A539D5A167F35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,21 +82,13 @@
 			path = TheEnigmas;
 			sourceTree = "<group>";
 		};
-		4E0F4151A3097682C2195420 /* Pods */ = {
+		FAC7FDD1F0686856F57BABBD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1B0E3F101E6E7AD2E9C24BF6 /* Pods-TheEnigmas.debug.xcconfig */,
-				B75035CF2F6801BE4E8ABC8D /* Pods-TheEnigmas.release.xcconfig */,
+				521D26FBE2B7158A6FCD3FB5 /* Pods-TheEnigmas.debug.xcconfig */,
+				96E8BFC7F600E4D81D5B864C /* Pods-TheEnigmas.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		AB0F938D4ABB8E59708DCB7B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				74B6D6A30E6750272A160826 /* Pods_TheEnigmas.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,12 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45D712C0204213CB00A2FD3E /* Build configuration list for PBXNativeTarget "TheEnigmas" */;
 			buildPhases = (
-				55AE27F79A69EE5DF973CFB2 /* [CP] Check Pods Manifest.lock */,
+				10C55BEEB52569BC49C5F6A1 /* [CP] Check Pods Manifest.lock */,
 				45D712AA204213CB00A2FD3E /* Sources */,
 				45D712AB204213CB00A2FD3E /* Frameworks */,
 				45D712AC204213CB00A2FD3E /* Resources */,
-				7B4ADC29AD86CF7406655DAD /* [CP] Embed Pods Frameworks */,
-				99C82EFCDE394E454C990B93 /* [CP] Copy Pods Resources */,
+				A7020D1C8ABEB4215AF41D88 /* [CP] Embed Pods Frameworks */,
+				937CBD4B73B08586AC434816 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,7 +163,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		55AE27F79A69EE5DF973CFB2 /* [CP] Check Pods Manifest.lock */ = {
+		10C55BEEB52569BC49C5F6A1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,74 +181,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7B4ADC29AD86CF7406655DAD /* [CP] Embed Pods Frameworks */ = {
+		937CBD4B73B08586AC434816 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheEnigmas/Pods-TheEnigmas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7020D1C8ABEB4215AF41D88 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TheEnigmas/Pods-TheEnigmas-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
-				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheEnigmas/Pods-TheEnigmas-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		99C82EFCDE394E454C990B93 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TheEnigmas/Pods-TheEnigmas-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
-				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheEnigmas/Pods-TheEnigmas-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -394,7 +361,7 @@
 		};
 		45D712C1204213CB00A2FD3E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B0E3F101E6E7AD2E9C24BF6 /* Pods-TheEnigmas.debug.xcconfig */;
+			baseConfigurationReference = 521D26FBE2B7158A6FCD3FB5 /* Pods-TheEnigmas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -410,7 +377,7 @@
 		};
 		45D712C2204213CB00A2FD3E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B75035CF2F6801BE4E8ABC8D /* Pods-TheEnigmas.release.xcconfig */;
+			baseConfigurationReference = 96E8BFC7F600E4D81D5B864C /* Pods-TheEnigmas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
