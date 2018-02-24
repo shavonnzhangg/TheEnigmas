@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var userName: UITextField!
+    @IBOutlet var passWord: UITextField!
+    
+    @IBAction func logIn(_ sender: Any) {
+        
+    }
+    
+    @IBAction func createAcct(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
