@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+
 
 class ViewController: UIViewController {
 
@@ -18,8 +20,21 @@ class ViewController: UIViewController {
     }
     
     @IBAction func createAcct(_ sender: Any) {
+        //createUserwithPwdCompletion
+        Auth.auth().createUser(withEmail: userName.text!, password: passWord.text!){
+            (user,error) in
+           
+            if(error != nil){
+                print(error!)
+            }else{
+                print("Login was successful")
+            }
+            
+        }
         
     }
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
