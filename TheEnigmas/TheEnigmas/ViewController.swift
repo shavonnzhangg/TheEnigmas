@@ -17,11 +17,11 @@ class ViewController: UIViewController {
     
     @IBAction func logIn(_ sender: Any) {
         
-        
     }
     
     
     @IBAction func createAcct(_ sender: Any) {
+
         //createUserwithPwdCompletion
         Auth.auth().createUser(withEmail: userName.text!, password: passWord.text!){
             (user,error) in
