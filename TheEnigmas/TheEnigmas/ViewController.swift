@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func toRecipe(_ sender: Any) {
+        self.view.layer.cornerRadius = 5
+        self.view.clipsToBounds = true
+        // Sends user to recipe
+        
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
