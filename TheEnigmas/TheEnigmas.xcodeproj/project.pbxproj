@@ -16,6 +16,7 @@
 		45D712C4204215BA00A2FD3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45D712C3204215BA00A2FD3E /* GoogleService-Info.plist */; };
 		8606110D204C841900D2407A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8606110C204C841800D2407A /* Recipe.swift */; };
 		8606110F204C846E00D2407A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8606110E204C846E00D2407A /* User.swift */; };
+		86061111204C868F00D2407A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86061110204C868F00D2407A /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		74B6D6A30E6750272A160826 /* Pods_TheEnigmas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheEnigmas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8606110C204C841800D2407A /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		8606110E204C846E00D2407A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		86061110204C868F00D2407A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		B75035CF2F6801BE4E8ABC8D /* Pods-TheEnigmas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheEnigmas.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheEnigmas/Pods-TheEnigmas.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 			children = (
 				45D712B1204213CB00A2FD3E /* AppDelegate.swift */,
 				45D712B3204213CB00A2FD3E /* ViewController.swift */,
+				86061110204C868F00D2407A /* RegisterViewController.swift */,
 				8606110C204C841800D2407A /* Recipe.swift */,
 				8606110E204C846E00D2407A /* User.swift */,
 				45D712B5204213CB00A2FD3E /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8606110F204C846E00D2407A /* User.swift in Sources */,
+				86061111204C868F00D2407A /* RegisterViewController.swift in Sources */,
 				45D712B4204213CB00A2FD3E /* ViewController.swift in Sources */,
 				45D712B2204213CB00A2FD3E /* AppDelegate.swift in Sources */,
 				8606110D204C841900D2407A /* Recipe.swift in Sources */,
